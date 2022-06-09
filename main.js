@@ -3,7 +3,7 @@
 // Hintergrundlayer Satellitenbild
 let startLayer = L.tileLayer.provider("Esri.WorldImagery")
 
-// Blick auf Innsbruck
+// Blick auf München
 const map = L.map("map", {
     center: [48.137222, 11.575556],
     zoom: 13,
